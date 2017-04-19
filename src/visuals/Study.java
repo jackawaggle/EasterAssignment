@@ -27,7 +27,6 @@ public class Study extends JFrame
    // constructor
    	Study(String title)
    	{
-	   
 		  super(title);
 		  setSize(300,300);
 		  setLayout(new FlowLayout());
