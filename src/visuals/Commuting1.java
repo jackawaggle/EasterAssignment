@@ -44,7 +44,7 @@ public class Commuting1 extends JFrame {
 		textField_luas.setColumns(10);
 		
 		JLabel lblCommuteByCar = new JLabel("Commute By Car");
-		lblCommuteByCar.setBounds(26, 74, 86, 14);
+		lblCommuteByCar.setBounds(26, 74, 116, 14);
 		getContentPane().add(lblCommuteByCar);
 		textField_car = new JTextField();
 		textField_car.setColumns(10);
@@ -52,7 +52,7 @@ public class Commuting1 extends JFrame {
 		getContentPane().add(textField_car);
 		
 		JLabel lblCommuteByBus = new JLabel("Commute By Bus");
-		lblCommuteByBus.setBounds(26, 113, 86, 14);
+		lblCommuteByBus.setBounds(26, 113, 116, 14);
 		getContentPane().add(lblCommuteByBus);
 		textField_bus = new JTextField();
 		textField_bus.setColumns(10);
@@ -73,7 +73,7 @@ public class Commuting1 extends JFrame {
 		
 		
 		JLabel lblCommuteByWalking = new JLabel("Commute By Walking");
-		lblCommuteByWalking.setBounds(26, 192, 116, 14);
+		lblCommuteByWalking.setBounds(26, 192, 139, 14);
 		getContentPane().add(lblCommuteByWalking);
 		
 		textField_walk = new JTextField();
@@ -149,6 +149,38 @@ public class Commuting1 extends JFrame {
 		
 		{	
 		}
+	}
+
+	public JTextField getBicycletxt() {
+		return bicycletxt;
+	}
+
+	public void setBicycletxt(JTextField bicycletxt) {
+		this.bicycletxt = bicycletxt;
+	}
+
+	public JTextField getBustxt() {
+		return bustxt;
+	}
+
+	public void setBustxt(JTextField bustxt) {
+		this.bustxt = bustxt;
+	}
+
+	public JTextField getWalktxt() {
+		return walktxt;
+	}
+
+	public void setWalktxt(JTextField walktxt) {
+		this.walktxt = walktxt;
+	}
+
+	public JTextField getCartxt() {
+		return cartxt;
+	}
+
+	public void setCartxt(JTextField cartxt) {
+		this.cartxt = cartxt;
 	}
 }
 		

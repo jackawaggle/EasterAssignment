@@ -9,7 +9,7 @@ public class Work extends Activities {
 		// TODO Auto-generated constructor stub
 	}
 
-	@Override
+	@Override// The overriding method has the same name,no + type of parameters, + return type as the method that it overrides.
 	public String evaluateTimeSpent() {
 		// TODO Auto-generated method stub
 		return "Work";
