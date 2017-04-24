@@ -68,15 +68,15 @@ public class College extends JFrame {    //inheritance from jframe from the java
 		btnNewButton.addActionListener(new ActionListener() {////waits for an action to be performemed imported from api
 			public void actionPerformed(ActionEvent e) {
 				
-				if(Integer.parseInt(labtxt.getText())>20)
+				if(Integer.parseInt(labtxt.getText())>10)
 				{
 					JOptionPane.showMessageDialog(null, "I have spent enough time in the lab");
 				}
-				if(Integer.parseInt(lecturetxt.getText())>20)
+				if(Integer.parseInt(lecturetxt.getText())>10)
 				{
 					JOptionPane.showMessageDialog(null, "I have spent enough time listening");
 				}
-				if(Integer.parseInt(tutorialtxt.getText())>20)
+				if(Integer.parseInt(tutorialtxt.getText())>10)
 				{
 					JOptionPane.showMessageDialog(null, "I have spent enough time here I'm going home!");
 				}

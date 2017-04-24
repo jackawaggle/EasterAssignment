@@ -38,9 +38,9 @@ public class Work extends JFrame {
 		});
 	}
 
-	/**
-	 * Create the frame.
-	 */
+	
+	 // Create the frame.
+	 
 	public Work() {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 450, 300);
